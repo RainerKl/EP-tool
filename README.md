@@ -13,3 +13,6 @@ Phase 1
       common: TICKER1, TICKER2, ...; 
       outliers: TICKER5, TICKER6, ...
       
+Phase 2
+
+  Filter out stocks with <4% ADR
