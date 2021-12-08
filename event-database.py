@@ -9,11 +9,13 @@
 import boto3
 import pandas
 
+#!!! DO NOT COMMIT YOUR AWS KEYS
+
 # Creating the low level functional client
 client = boto3.client(
     's3',
     aws_access_key_id = 'AKIAVRSURCNSBHJZQG64',
-    aws_secret_access_key = 'LperXRYsMPKY7pnuju2F8hqG3wHzuKkiHykzTzff',
+    aws_secret_access_key = '',
     region_name = 'eu-central-1'
 )
     
@@ -21,7 +23,7 @@ client = boto3.client(
 resource = boto3.resource(
     's3',
     aws_access_key_id = 'AKIAVRSURCNSBHJZQG64',
-    aws_secret_access_key = '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',
+    aws_secret_access_key = '',
     region_name = 'eu-central-1'
 )
 # Fetch the list of existing buckets
